@@ -156,5 +156,4 @@ return [
         'correct_answer' => '正しい選択肢',
         'explanation' => '解説',
     ],
-
 ];

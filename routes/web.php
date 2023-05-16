@@ -18,5 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::resource('quizzes', QuizController::class);

@@ -55,7 +55,7 @@
       <div class="form-group">
         <label for="correctAnswerSelect">正しい選択肢</label>
         <select name="correct_answer" class="form-control @error('correct_answer') is-invalid @enderror" id="correctAnswerSelect">
-          <option @if(old('correct_answer') =='') selected @endif>正しい回答を選択...</option>
+          <option>正しい回答を選択...</option>
           <option @if(old('correct_answer') =='A') selected @endif value="A">A</option>
           <option @if(old('correct_answer') =='B') selected @endif value="B">B</option>
           <option @if(old('correct_answer') =='C') selected @endif value="C">C</option>

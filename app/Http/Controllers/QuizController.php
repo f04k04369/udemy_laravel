@@ -49,7 +49,6 @@ class QuizController extends Controller
             'explanation' => 'max:65535',
         ]);
 
-        // Modelを作成
         $Quiz = new Quiz;
         $Quiz->question = $validatedData['question'];
         $Quiz->answer_a = $validatedData['answer_a'];

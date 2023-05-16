@@ -20,7 +20,7 @@
       <tbody>
         @foreach($quizzes as $quiz)
         <tr>
-          <th scope="row">{{ $quiz->id }}</th>
+          <th scope="row">{{$quiz->id}}</th>
           <td><a href="{{ route('quizzes.show', $quiz->id) }}">{{ Str::limit($quiz->question, 50, '...') }}</a></td>
           <td><button type="button" class="delete-quiz btn btn-danger btn-sm" data-id="{{ $quiz->id }}">削除</button></td>
         </tr>
